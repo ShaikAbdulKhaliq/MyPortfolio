@@ -1,5 +1,5 @@
 import React from 'react'
-import profilepic from "../assets/raviKumarprofile.webp"
+import profilepics from "../assets/raviKumarprofile.webp"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 const containerVariants={
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className='flex flex-wrap lg:flex-row-reverse'>
          <div className='w-full lg:w-1/2'>
              <div className='flex justify-center lg:p-8'>
-                <motion.img src={profilepic} 
+                <motion.img src={profilepics} 
                 alt="Abdul khaleed" 
                 className='border border-stone-900 rounded-3xl'
                 initial={{x:100,opacity:0}}
